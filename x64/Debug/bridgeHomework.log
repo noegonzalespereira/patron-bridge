@@ -1,0 +1,55 @@
+﻿  AdvancedRemoteControl.cpp
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,14): error C2011: 'Device': nueva definición del tipo 'class'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,7): message : vea la declaración de 'Device'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(11,1): error C2027: uso del tipo 'Device' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,7): message : vea la declaración de 'Device'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(14,1): error C2027: uso del tipo 'Device' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,7): message : vea la declaración de 'Device'
+  bridgeHomework.cpp
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\tvBox.cpp(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,14): error C2011: 'Device': nueva definición del tipo 'class'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Device.cpp(4,7): message : vea la declaración de 'Device'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Radio.cpp(4,29): error C2504: 'Device': clase base sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Canal y Tv.cpp(22,26): error C2504: 'Device': clase base sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Canal y Tv.cpp(45,10): warning C4244: 'return': conversión de 'const int' a 'float'; posible pérdida de datos
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Canal y Tv.cpp(50,14): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\Canal y Tv.cpp(61,30): warning C4244: 'return': conversión de 'int' a 'float'; posible pérdida de datos
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,21): error C2011: 'RemoteControl': nueva definición del tipo 'class'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(6,52): error C2504: 'RemoteControl': clase base sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(8,42): error C2614: 'AdvancedRemoteControl': inicialización de miembro no válida: 'RemoteControl' no es una base o miembro
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(11,3): error C2065: 'device': identificador no declarado
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(14,3): error C2065: 'device': identificador no declarado
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(34,35): error C2027: uso del tipo 'RemoteControl' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,38): error C2665: 'AdvancedRemoteControl::AdvancedRemoteControl':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(16,1): message : puede ser 'AdvancedRemoteControl::AdvancedRemoteControl(AdvancedRemoteControl &&)'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,38): message : 'AdvancedRemoteControl::AdvancedRemoteControl(AdvancedRemoteControl &&)': el argumento 1 no puede convertirse de 'Radio *' a 'AdvancedRemoteControl &&'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,39): message : Razón: no se puede realizar la conversión de 'Radio *' a 'AdvancedRemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,39): message : Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(16,1): message : o       'AdvancedRemoteControl::AdvancedRemoteControl(const AdvancedRemoteControl &)'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,38): message : 'AdvancedRemoteControl::AdvancedRemoteControl(const AdvancedRemoteControl &)': el argumento 1 no puede convertirse de 'Radio *' a 'const AdvancedRemoteControl &'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,39): message : Razón: no se puede realizar la conversión de 'Radio *' a 'const AdvancedRemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,39): message : Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\AdvancedRemoteControl.cpp(8,2): message : o       'AdvancedRemoteControl::AdvancedRemoteControl(Device *)'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,38): message : 'AdvancedRemoteControl::AdvancedRemoteControl(Device *)': el argumento 1 no puede convertirse de 'Radio *' a 'Device *'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,39): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función entre paréntesis
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(37,38): message : al hacer coincidir la lista de argumentos '(Radio *)'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(61,10): error C2027: uso del tipo 'RemoteControl' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(64,10): error C2027: uso del tipo 'RemoteControl' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(67,10): error C2027: uso del tipo 'RemoteControl' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(74,10): error C2027: uso del tipo 'RemoteControl' sin definir
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(78,4): warning C4150: eliminación de puntero a tipo 'RemoteControl' incompleto; no se ha llamado a un destructor
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\bridgeHomework.cpp(83,3): warning C4150: eliminación de puntero a tipo 'RemoteControl' incompleto; no se ha llamado a un destructor
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\RemoteControl.cpp(4,7): message : vea la declaración de 'RemoteControl'
+  RemoteControl.cpp
+  tvBox.cpp
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\tvBox.cpp(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  TvboxRemoteControl.cpp
+E:\programacion 3\github lab\patrones\bridge\bridgeHomework\bridgeHomework\tvBox.cpp(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  Generando código...
